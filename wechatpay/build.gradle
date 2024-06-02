@@ -13,7 +13,6 @@ allprojects {
 }
 android {
     compileSdkVersion 28
-    buildToolsVersion "28.0.3"
 
     defaultConfig {
         minSdkVersion 14
@@ -28,6 +27,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    namespace 'com.xgr.wechatpay'
 }
 
 dependencies {
